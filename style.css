@@ -1,0 +1,36 @@
+.fullcv {
+    --w: 595px;
+    --h: 842px;
+    width: var(--w);
+    height: var(--h);
+    background-color: red;
+    position: relative;
+    left: calc(50% - var(--w) / 2);
+}
+
+.sidebar {
+    background-color: #233A5F;
+    width: 210px;
+    height: 842px;
+    position: absolute;
+}
+.profile_pic {
+    width: 100px;
+    height: 100px;
+    background-image: url("images/profile_pic.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #6E7885;
+    border-radius: 100%;
+    position: absolute;
+    top: 31px;
+    left: 12px;
+}
+
+.main {
+    background-color: white;
+    width: 385px;
+    height: 842px;
+    left: 210px;
+    position: absolute;
+}
